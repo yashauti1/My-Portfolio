@@ -24,10 +24,19 @@ document.querySelector("#main").addEventListener("mousemove", function(event) {
 // Scroll to #contact section on button click
 const handleButtonClick = () => {
     const button = document.querySelector(".contactbtn button");
-
+    
     button.addEventListener("click", function() {
         window.location.href = 'contact.html'; // Replace with your actual contact page URL
     });
 }
 
 handleButtonClick();
+
+const handleresumeClick=()=>{
+    const resBtn=document.querySelector(".resumebtn button");
+
+    resBtn.addEventListener("click",function(){
+        window.location.href="/YashAutiResume.pdf";
+    })
+}
+handleresumeClick();
