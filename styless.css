@@ -1,0 +1,144 @@
+@font-face {
+    font-family: regular;
+    src: url(/images/font/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: semi;
+    src: url(/images/font/OpenSans-Semibold.ttf);
+}
+@font-face {
+    font-family: bold;
+    src: url(/images/font/OpenSans-Bold.ttf);
+}
+
+
+body {
+    font-family: regular;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #474747;
+}
+
+nav{
+    background-color: #2E2E2E;
+    min-height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vw 8vw 1vw 8vw;
+}
+
+.logo img{
+    width: 100px;
+    height: 100px; 
+    border-radius: 50%;
+    object-fit: cover; 
+}
+
+.navelem{
+display: flex;
+justify-content: space-between;
+gap: 2vw;
+
+}
+.navelem a{
+    text-decoration: none;
+    font-family: semi;
+    font-weight: 400;
+    color: white;
+    font-size: 1rem;
+}
+
+.navelem a:hover{
+color: #FFEB3B;
+
+}
+.navelem a:active{
+    color: #00C853;
+    
+    }
+
+    .contactbtn{
+        color: black;
+    }
+.contactbtn button{
+   height: 48px;
+   padding: 10px 20px;
+   min-width: 100px;
+   font-size: 16px;
+   background-color: #FFEB3B;
+   font-family: bold;
+   font-size: 1rem;
+   border-radius: 10px;
+   cursor: pointer;
+   
+}
+
+.contactbtn button:hover{
+background-color: #b6a405;
+}
+
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about h1 {
+    text-align: center;
+    color: #333;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-container {
+    margin: 20px 0;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.text-container {
+    text-align: justify;
+}
+
+.text-container p {
+    margin: 10px 0;
+}
+
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+   
+    margin-top: 3vw;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
+  .footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
