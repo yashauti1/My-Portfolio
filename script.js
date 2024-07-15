@@ -36,7 +36,7 @@ const handleresumeClick=()=>{
     const resBtn=document.querySelector(".resumebtn button");
 
     resBtn.addEventListener("click",function(){
-        window.location.href="/YashAutiResume.pdf";
+        window.location.href="/Yash Auti Resume.pdf";
     })
 }
 handleresumeClick();
