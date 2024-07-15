@@ -61,6 +61,15 @@
           Designed by <a href="#">Yash Auti</a>
         </p>
       </footer>
-      <script src="script.js"></script> 
+      <script>
+         const handleButtonClick = () => {
+    const button = document.querySelector(".contactbtn button");
+    
+    button.addEventListener("click", function() {
+        window.location.href = 'contact.html'; // Replace with your actual contact page URL
+    });
+}
+handleButtonClick();
+      </script> 
 </body>
 </html>
