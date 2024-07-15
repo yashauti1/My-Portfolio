@@ -142,7 +142,7 @@ padding: 0vw 1vw 0vw 1vw;
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 50%;
+    
    
 }
 
@@ -368,3 +368,244 @@ section .headname{
       .footer a:hover {
         text-decoration: underline;
       }
+
+
+
+      @media (max-width: 768px) {
+        nav {
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 1vw 4vw;
+        }
+    
+        .logo img {
+            width: 80px;
+            height: 80px;
+        }
+    
+        .navelem {
+            flex-direction: column;
+            gap: 1vw;
+            width: 100%;
+        }
+    
+        .navelem a {
+            font-size: 0.875rem;
+            padding: 0.5rem 0;
+        }
+    
+        .contactbtn {
+            align-self: flex-end;
+        }
+    
+        .hero {
+            flex-direction: column-reverse;
+            width: 90vw;
+            height: auto;
+            margin: 2vh 5vw;
+        }
+    
+        .right {
+            width: 100%;
+            text-align: center;
+        }
+    
+        .right h1, .right h4 {
+            font-size: 2rem;
+        }
+    
+        .resumebtn {
+            padding: 1vw 0;
+            text-align: center;
+        }
+    
+        .left .card {
+            width: 100%;
+            height: auto;
+            margin-bottom: 2vh;
+        }
+    
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+    
+        .secondpage .wrappcard {
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .cards {
+            width: 80vw;
+            max-width: 90%;
+            margin: 2vh 0;
+        }
+    
+        .thirdpage section .skillspart {
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .thirdpage section .card {
+            width: 90%;
+            max-width: 90%;
+            margin: 2vh 0;
+        }
+    
+        .contact-details {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+    
+        .contact-info {
+            margin-bottom: 2vh;
+        }
+    
+        .social-media {
+            flex-direction: row;
+            justify-content: center;
+            gap: 2vw;
+        }
+    }
+    
+
+
+    @media (min-width: 769px) and (max-width: 1024px) {
+      .hero {
+          flex-direction: column-reverse;
+          width: 90vw;
+          height: auto;
+          margin: 2vh 5vw;
+      }
+  
+      .right {
+          width: 100%;
+          text-align: center;
+      }
+  
+      .right h1, .right h4 {
+          font-size: 2.5rem;
+      }
+  
+      .resumebtn {
+          padding: 1vw 0;
+          text-align: center;
+      }
+  
+      .left .card {
+          width: 100%;
+          height: auto;
+          margin-bottom: 2vh;
+      }
+  
+      .card img {
+          width: 100%;
+          height: auto;
+      }
+  
+      .secondpage .wrappcard {
+          flex-direction: column;
+          align-items: center;
+      }
+  
+      .cards {
+          width: 80vw;
+          max-width: 90%;
+          margin: 2vh 0;
+      }
+  
+      .thirdpage section .skillspart {
+          flex-direction: column;
+          align-items: center;
+      }
+  
+      .thirdpage section .card {
+          width: 90%;
+          max-width: 90%;
+          margin: 2vh 0;
+      }
+  
+      .contact-details {
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+      }
+  
+      .contact-info {
+          margin-bottom: 2vh;
+      }
+  
+      .social-media {
+          flex-direction: row;
+          justify-content: center;
+          gap: 2vw;
+      }
+  }
+  @media (min-width: 1025px) {
+    .hero {
+        width: 80vw;
+        height: 60vh;
+        flex-direction: row;
+    }
+
+    .right {
+        width: 50vw;
+    }
+
+    .right h1 {
+        font-size: 3rem;
+    }
+
+    .right h4 {
+        font-size: 1.5rem;
+    }
+
+    .left .card {
+        width: 30vw;
+        height: 60vh;
+    }
+
+    .card img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .secondpage .wrappcard {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .cards {
+        width: 40vw;
+        max-width: 350px;
+        margin: 5vh 5vw;
+    }
+
+    .thirdpage section .skillspart {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .thirdpage section .card {
+        width: 80vw;
+        max-width: 400px;
+        margin: 2vh 0;
+    }
+
+    .contact-details {
+        flex-direction: row;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .contact-info {
+        margin-bottom: 0;
+    }
+
+    .social-media {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
