@@ -146,11 +146,25 @@ padding: 0vw 1vw 0vw 1vw;
    
 }
 
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('images/lighting2.png'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+    z-index: -1;
+}
+
 section h1{
     text-align: center;
     font-family: bold;
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 3rem;
     margin-top: 4vw;
     color: white;
    
@@ -542,6 +556,30 @@ section .headname{
           gap: 2vw;
       }
   }
+
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+   
+    margin-top: 3vw;
+    width: 100%;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
+  .footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
   @media (min-width: 1025px) {
     .hero {
         width: 80vw;
@@ -609,3 +647,26 @@ section .headname{
         gap: 10px;
     }
 }
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+   
+    margin-top: 3vw;
+    width: 100%;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
+  .footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
